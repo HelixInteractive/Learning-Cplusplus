@@ -1,15 +1,19 @@
 //This is our first program
+#include <iostream>
+
+using namespace std;
+
 
 int main() {
   int mainIn = 0;
   
-  cout << 'Enter an integer > ';
-  cin >> mainIn;
-  cout << mainIn;
+  std::cout << "Enter an integer > ";
+  std::cin >> mainIn;
+  std::cout << mainIn << endl;
   if(mainIn < 0){
-    cout << 'Your number was negative';
+    std::cout << "Your number was negative" << endl;
   }else{
-    cout << 'Your number was positive';
+    std::cout << "Your number was positive";
   }
     
 }
